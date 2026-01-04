@@ -1,0 +1,50 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake files
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE and editor files
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency/package directories
+vcpkg_installed/
+conan/
+
+# Cache and temporary files
+*.depend
+*.d
+*.o.d
+compile_commands.json (optional - include if you don't want to share it)
